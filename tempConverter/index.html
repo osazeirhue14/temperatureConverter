@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Temperature Converter</h1>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <p><b>Converting from Celcius to Faherenheit and viseversa!</b></p>
+      
+        <input type="number" id="temp" value="0">
+        <br><br>
+        <input type="checkbox" id="cTof" name="unit">
+        <label for="cTof">Celcius to Faherenheit</label>
+        <br>
+        <br>
+        <input type="checkbox" id="fToc" name="unit">
+        <label for="fToc">Faherenheit to Celcius</label>
+        <br>
+        <br>
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result"></p>
+
+        <script src="index.js"></script>
+    
+
+    </body>
+</html>
